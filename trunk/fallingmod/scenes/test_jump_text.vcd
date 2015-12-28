@@ -1,0 +1,27 @@
+// Choreo version 1
+actor "!target1"
+{
+  channel "testdialogue"
+  {
+    event speak "fallingmod\vo\voice_test.wav"
+    {
+      time 0.106667 9.489705
+      param "fallingmod\vo\voice_test.wav"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

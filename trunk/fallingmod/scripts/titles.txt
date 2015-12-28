@@ -1,0 +1,77 @@
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 1.5
+
+GAMEOVER_ALLY
+{
+#HL2_GameOver_Ally
+}
+
+GAMEOVER_OBJECT
+{
+#HL2_GameOver_Object
+}
+
+GAMEOVER_TIMER
+{
+#HL2_GameOver_Timer
+}
+
+GAMEOVER_STUCK
+{
+#HL2_GameOver_Stuck
+}
+
+
+
+//CHAPTER TITLES
+
+
+$fadein 0.05
+$holdtime 5
+$position -1 0.7
+
+CHAPTER1_TITLE
+{
+#fallingmod_Chapter1_Title
+}
+
+
+// In-Game messages
+
+
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 2.0
+$fadeout 0.5
+
+GAMESAVED
+{
+#HL2_Saved
+}
+
+
+// Game title
+
+
+$position -1 -1
+$effect 0
+$color 180 180 180
+$color2 0 0 0
+$fadein 1.0
+$holdtime 3.0
+$fadeout 1.5
+
+GAMETITLE
+{
+Falling Mod
+}

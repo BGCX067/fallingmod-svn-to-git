@@ -1,0 +1,31 @@
+"GameInfo"
+{
+	game						"FallingMod"
+	title 						"FallingMod"
+	title2						"= Rev. 49 ="
+	
+	type 						singleplayer_only
+
+	developer	"The FallingMod Team"
+	developer_url	"http://fallingmod.square7.ch"
+	manual "http://code.google.com/p/fallingmod"
+	icon		"fallingaddons/icon/icon"
+	
+	nodifficulty true
+	nomodels true
+
+	FileSystem
+	{
+		SteamAppId				218
+		ToolsAppId				211
+		AdditionalContentId		420
+		
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				|all_source_engine_paths|ep2
+			Game				|all_source_engine_paths|episodic
+			Game				|all_source_engine_paths|hl2
+		}
+	}
+}

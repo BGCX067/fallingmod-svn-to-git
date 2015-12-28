@@ -1,0 +1,14 @@
+"LightMappedGeneric"
+{
+"$basetexture" "fallingmod/logo/fallingmod"
+"$surfaceprop" "Default"
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "1"
+}
+}
+} 

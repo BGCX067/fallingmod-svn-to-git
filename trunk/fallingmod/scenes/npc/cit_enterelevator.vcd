@@ -1,0 +1,67 @@
+// Choreo version 1
+event stoppoint "Scene complete"
+{
+  time 12.540001 -1.000000
+  param "noaction"
+}
+actor "!target1"
+{
+  channel "moveto"
+  {
+    event moveto "Moveto cit_target02"
+    {
+      time 2.500000 7.500000
+      param "cit_target02"
+      param2 "Walk"
+    }
+    event sequence "Sit_Chair_to_Idle"
+    {
+      time 0.626667 2.360000
+      param "Sit_Chair_to_Idle"
+      fixedlength
+    }
+    event moveto "Moveto cit_target03"
+    {
+      time 7.840000 12.406667
+      param "cit_target03"
+    }
+  }
+  channel "lookat"
+  {
+    event face "Face cit_faceto02"
+    {
+      time 7.286666 7.846667
+      param "cit_faceto02"
+    }
+  }
+  channel "animations"
+  {
+    event sequence "Sit_Chair"
+    {
+      time 0.173333 0.673333
+      param "Sit_Chair"
+    }
+    event firetrigger "triggerpause"
+    {
+      time 0.533333 -1.000000
+      param "1"
+    }
+    event firetrigger "triggerpause2"
+    {
+      time 7.706667 -1.000000
+      param "2"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
